@@ -9,16 +9,12 @@ from django.contrib.auth.decorators import login_required
 from django.views.decorators.csrf import ensure_csrf_cookie
 
 from cart.cart import Cart
-import razorpay
+
 from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.utils import timezone
 
 # Create your views here.
-
-
-client = razorpay.Client(
-    auth=(settings.RAZORPAY_KEY_ID, settings.RAZORPAY_KEY_SECRATE))
 
 
 def BASE(request):
