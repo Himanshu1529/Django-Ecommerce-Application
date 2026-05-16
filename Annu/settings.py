@@ -41,10 +41,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'app',
     'ckeditor',
-    'cart',
+    'mycart',
     ]
 
-CART_SESSION_ID = 'cart'
+CART_SESSION_ID = 'mycart'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

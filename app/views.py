@@ -8,7 +8,7 @@ from django.contrib.auth.decorators import login_required
 
 from django.views.decorators.csrf import ensure_csrf_cookie
 
-from cart.cart import Cart
+from mycart.cart import Cart
 import razorpay
 from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
